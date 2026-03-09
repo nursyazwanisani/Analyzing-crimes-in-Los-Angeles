@@ -1,1 +1,95 @@
-# Analyzing-crimes-in-Los-Angeles
+# 🚔 Analyzing Los Angeles Crime Patterns
+
+> A DataCamp Data Science bonus project helping the LAPD identify crime patterns using real 2020 data.
+
+![Los Angeles Skyline](la_skyline.jpg)
+
+---
+
+## 📌 Project Overview
+
+Los Angeles — the City of Angels — is one of the most iconic cities in the world. But like any major metropolis, it faces a large volume of crime. In this project, we analyse real LAPD crime data to uncover patterns in criminal behaviour across time of day, location, and victim demographics.
+
+The goal is to provide actionable insights that help the **Los Angeles Police Department (LAPD)** allocate resources more effectively.
+
+---
+
+## 🗂️ Dataset
+
+A single dataset is used: **`crimes.csv`** — a modified version of publicly available data from [Los Angeles Open Data](https://data.lacity.org/).
+
+The dataset contains **~185,715 crime records** from 2020.
+
+| Column | Description |
+|--------|-------------|
+| `DR_NO` | Division of Records Number (official file number) |
+| `Date Rptd` | Date the crime was reported (MM/DD/YYYY) |
+| `DATE OCC` | Date the crime occurred (MM/DD/YYYY) |
+| `TIME OCC` | Time of occurrence in 24-hour military format |
+| `AREA NAME` | Geographic patrol division name |
+| `Crm Cd Desc` | Description of the crime committed |
+| `Vict Age` | Victim's age in years |
+| `Vict Sex` | Victim's sex: `F` (Female), `M` (Male), `X` (Unknown) |
+| `Vict Descent` | Victim's ethnic descent (coded) |
+| `Weapon Desc` | Description of weapon used, if applicable |
+| `Status Desc` | Current status of the crime case |
+| `LOCATION` | Street address where the crime occurred |
+
+---
+
+## 🛠️ Skills Demonstrated
+
+- **Data loading and inspection** with `pandas`
+- **Feature engineering** — extracting hour-of-day from military time strings
+- **Exploratory Data Analysis (EDA)** with `matplotlib` and `seaborn`
+- **Frequency analysis** — identifying peak crime hours and high-crime areas
+- **Binning and categorisation** — grouping victim ages into demographic brackets
+- **Conditional filtering** — isolating night-time crime records
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+```bash
+pip install pandas numpy matplotlib seaborn
+```
+
+### Run the Notebook
+
+```bash
+jupyter notebook notebook.ipynb
+```
+
+---
+
+## 📊 Key Questions Explored
+
+- At what hour of the day do most crimes occur?
+- Which LAPD area has the highest volume of night-time crime?
+- Which victim age group is most frequently affected by crime?
+
+---
+
+## 📁 Project Structure
+
+```
+├── crimes.csv
+├── la_skyline.jpg
+├── notebook.ipynb
+├── README.md
+└── ANALYSIS.md
+```
+
+---
+
+## 📄 Analysis Summary
+
+See [ANALYSIS.md](ANALYSIS.md) for a plain-English summary of the findings.
+
+---
+
+## 🎓 Course
+
+This project was completed as part of the **DataCamp Data Scientist** career track.
