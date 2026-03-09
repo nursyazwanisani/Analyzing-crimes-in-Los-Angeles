@@ -1,12 +1,12 @@
-# 🚔 Analyzing Los Angeles Crime Patterns
+# Analyzing Los Angeles Crime Patterns
 
 > A DataCamp Data Science bonus project helping the LAPD identify crime patterns using real 2020 data.
 
-![Los Angeles Skyline](la_skyline.jpg)
+![la_skyline](https://github.com/user-attachments/assets/b05b42bb-99e1-49a7-8282-980239ea0c79)
 
 ---
 
-## 📌 Project Overview
+## 1. Project Overview
 
 Los Angeles — the City of Angels — is one of the most iconic cities in the world. But like any major metropolis, it faces a large volume of crime. In this project, we analyse real LAPD crime data to uncover patterns in criminal behaviour across time of day, location, and victim demographics.
 
@@ -14,9 +14,9 @@ The goal is to provide actionable insights that help the **Los Angeles Police De
 
 ---
 
-## 🗂️ Dataset
+## 2. Dataset
 
-A single dataset is used: **`crimes.csv`** — a modified version of publicly available data from [Los Angeles Open Data](https://data.lacity.org/).
+A single dataset is used: **`crimes.csv`**
 
 The dataset contains **~185,715 crime records** from 2020.
 
@@ -37,7 +37,7 @@ The dataset contains **~185,715 crime records** from 2020.
 
 ---
 
-## 🛠️ Skills Demonstrated
+## 3. Skills Demonstrated
 
 - **Data loading and inspection** with `pandas`
 - **Feature engineering** — extracting hour-of-day from military time strings
@@ -48,15 +48,15 @@ The dataset contains **~185,715 crime records** from 2020.
 
 ---
 
-## 🚀 Getting Started
+## 4. Getting Started
 
-### Prerequisites
+### 4.1 Prerequisites
 
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
 
-### Run the Notebook
+### 4.2 Run the Notebook
 
 ```bash
 jupyter notebook notebook.ipynb
@@ -64,7 +64,7 @@ jupyter notebook notebook.ipynb
 
 ---
 
-## 📊 Key Questions Explored
+## 3. Key Questions Explored
 
 - At what hour of the day do most crimes occur?
 - Which LAPD area has the highest volume of night-time crime?
@@ -72,7 +72,7 @@ jupyter notebook notebook.ipynb
 
 ---
 
-## 📁 Project Structure
+## 4. Project Structure
 
 ```
 ├── crimes.csv
@@ -84,12 +84,12 @@ jupyter notebook notebook.ipynb
 
 ---
 
-## 📄 Analysis Summary
+## 5. Analysis Summary
 
 See [ANALYSIS.md](ANALYSIS.md) for a plain-English summary of the findings.
 
 ---
 
-## 🎓 Course
+## 6. Course
 
-This project was completed as part of the **DataCamp Data Scientist** career track.
+This project was completed as part of the **DataCamp Associate Data Scientist in Python** career track.
