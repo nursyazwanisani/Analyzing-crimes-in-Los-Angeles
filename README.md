@@ -86,7 +86,7 @@ Key columns used in analysis:
 
 | Finding | Value |
 |---------|-------|
-| 🕛 Hour with the most crimes | **12:00 (noon)** |
+| Hour with the most crimes | **12:00 (noon)** |
 
 Crimes peak at **midday (12:00)**. This likely reflects a combination of factors — higher foot traffic, more people active outdoors, and more opportunity for crimes such as theft and robbery during lunch hours.
 
@@ -96,7 +96,7 @@ Night-time was defined as crimes occurring **before 4:00 AM or from 10:00 PM onw
 
 | Finding | Value |
 |---------|-------|
-| 🌙 Area with most night-time crime | **Central** |
+| Area with most night-time crime | **Central** |
 
 The **Central** division records the highest volume of night-time crime among all 21 LAPD patrol areas. This is consistent with Central's coverage of downtown LA, which sees significant late-night activity including nightlife, homelessness, and transient populations.
 
