@@ -135,10 +135,8 @@ The **26–34 age group** is by far the most frequently victimised, likely becau
 
 ```
 ├── crimes.csv
-├── la_skyline.jpg
 ├── notebook.ipynb
-├── README.md
-└── ANALYSIS.md
+└── README.md
 ```
 
 ---
